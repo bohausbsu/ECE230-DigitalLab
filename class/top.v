@@ -6,7 +6,7 @@ module top(
     // Enter your equation here
     genvar i;
     generate 
-        for (i=0; i < 15; i = i + 5)begin
+        for (i=0; i < 15; i = i + 4)begin
             assign led[i] = sw[i];
         end
     endgenerate
